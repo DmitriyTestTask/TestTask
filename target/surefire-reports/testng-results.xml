@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="10221" started-at="2020-08-28T05:23:31Z" finished-at="2020-08-28T05:23:41Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="10221" started-at="2020-08-28T05:23:31Z" finished-at="2020-08-28T05:23:41Z">
+      <class name="test_file.TestClass">
+        <test-method status="PASS" signature="createNewUser()[pri:1, instance:test_file.TestClass@17d0578]" name="createNewUser" duration-ms="7906" started-at="2020-08-28T05:23:31Z" finished-at="2020-08-28T05:23:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewUser -->
+        <test-method status="PASS" signature="logInRegisteredUser()[pri:2, instance:test_file.TestClass@17d0578]" name="logInRegisteredUser" duration-ms="822" started-at="2020-08-28T05:23:39Z" finished-at="2020-08-28T05:23:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInRegisteredUser -->
+        <test-method status="PASS" signature="addContact()[pri:3, instance:test_file.TestClass@17d0578]" name="addContact" duration-ms="954" started-at="2020-08-28T05:23:40Z" finished-at="2020-08-28T05:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addContact -->
+        <test-method status="PASS" signature="editContact()[pri:4, instance:test_file.TestClass@17d0578]" name="editContact" duration-ms="381" started-at="2020-08-28T05:23:41Z" finished-at="2020-08-28T05:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editContact -->
+        <test-method status="PASS" signature="deleteContact()[pri:5, instance:test_file.TestClass@17d0578]" name="deleteContact" duration-ms="64" started-at="2020-08-28T05:23:41Z" finished-at="2020-08-28T05:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteContact -->
+        <test-method status="PASS" signature="logout()[pri:6, instance:test_file.TestClass@17d0578]" name="logout" duration-ms="70" started-at="2020-08-28T05:23:41Z" finished-at="2020-08-28T05:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- test_file.TestClass -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
