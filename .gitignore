@@ -1,2 +1,4 @@
-/temp
-/test
+/temp/
+/test/
+.idea/
+build/
