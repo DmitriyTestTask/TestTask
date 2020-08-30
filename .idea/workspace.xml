@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41c369aa-370c-4517-b514-842b7ae70815" name="Default Changelist" comment="" />
+    <list default="true" id="41c369aa-370c-4517-b514-842b7ae70815" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_API/Test_API.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +31,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1ggZL6oSGaxS4gSn3JnK4aRWaQ4" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -35,34 +46,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestClass">
-    <configuration name="TestClass" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Test_API.loginUser">
+    <configuration name="Test_API.addContact" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test_file.*" />
+          <option name="PATTERN" value="test_API.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test_file" />
-      <option name="MAIN_CLASS_NAME" value="test_file.TestClass" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestClass.addContact" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="test_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test_file.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test_file" />
-      <option name="MAIN_CLASS_NAME" value="test_file.TestClass" />
+      <option name="PACKAGE_NAME" value="test_API" />
+      <option name="MAIN_CLASS_NAME" value="test_API.Test_API" />
       <option name="METHOD_NAME" value="addContact" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -71,17 +65,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass.createNewUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_API.authUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test_file.*" />
+          <option name="PATTERN" value="test_API.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test_file" />
-      <option name="MAIN_CLASS_NAME" value="test_file.TestClass" />
-      <option name="METHOD_NAME" value="createNewUser" />
+      <option name="PACKAGE_NAME" value="test_API" />
+      <option name="MAIN_CLASS_NAME" value="test_API.Test_API" />
+      <option name="METHOD_NAME" value="authUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -89,17 +83,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass.logInRegisteredUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_API.getWebSite" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test_file.*" />
+          <option name="PATTERN" value="test_API.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test_file" />
-      <option name="MAIN_CLASS_NAME" value="test_file.TestClass" />
-      <option name="METHOD_NAME" value="logInRegisteredUser" />
+      <option name="PACKAGE_NAME" value="test_API" />
+      <option name="MAIN_CLASS_NAME" value="test_API.Test_API" />
+      <option name="METHOD_NAME" value="getWebSite" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_API.loginUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test_API.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test_API" />
+      <option name="MAIN_CLASS_NAME" value="test_API.Test_API" />
+      <option name="METHOD_NAME" value="loginUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_API.registrationNewUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test_API.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test_API" />
+      <option name="MAIN_CLASS_NAME" value="test_API.Test_API" />
+      <option name="METHOD_NAME" value="registrationNewUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -109,10 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestClass" />
-        <item itemvalue="TestNG.TestClass.addContact" />
-        <item itemvalue="TestNG.TestClass.logInRegisteredUser" />
-        <item itemvalue="TestNG.TestClass.createNewUser" />
+        <item itemvalue="TestNG.Test_API.loginUser" />
+        <item itemvalue="TestNG.Test_API.getWebSite" />
+        <item itemvalue="TestNG.Test_API.authUser" />
+        <item itemvalue="TestNG.Test_API.registrationNewUser" />
+        <item itemvalue="TestNG.Test_API.addContact" />
       </list>
     </recent_temporary>
   </component>
@@ -128,6 +159,17 @@
       <updated>1598538136847</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
