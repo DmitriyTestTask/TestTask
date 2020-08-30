@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41c369aa-370c-4517-b514-842b7ae70815" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_API/Test_API.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test_API/Test_API.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_API/Test_API.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test_API/Test_API.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test_API/Test_API.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Test_API.loginUser">
+  <component name="RunManager" selected="TestNG.Test_API.deleteContact">
     <configuration name="Test_API.addContact" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test_project" />
       <extension name="coverage">
@@ -65,7 +64,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_API.authUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_API.deleteContact" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test_project" />
       <extension name="coverage">
         <pattern>
@@ -75,7 +74,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="test_API" />
       <option name="MAIN_CLASS_NAME" value="test_API.Test_API" />
-      <option name="METHOD_NAME" value="authUser" />
+      <option name="METHOD_NAME" value="deleteContact" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -139,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Test_API.loginUser" />
-        <item itemvalue="TestNG.Test_API.getWebSite" />
-        <item itemvalue="TestNG.Test_API.authUser" />
+        <item itemvalue="TestNG.Test_API.deleteContact" />
         <item itemvalue="TestNG.Test_API.registrationNewUser" />
         <item itemvalue="TestNG.Test_API.addContact" />
+        <item itemvalue="TestNG.Test_API.loginUser" />
+        <item itemvalue="TestNG.Test_API.getWebSite" />
       </list>
     </recent_temporary>
   </component>
