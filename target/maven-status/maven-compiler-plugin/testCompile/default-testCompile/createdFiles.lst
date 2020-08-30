@@ -1,5 +1,6 @@
 pageObjects\AccountLoginPageObject.class
 test_file\TestClass.class
+test_API\Test_API.class
 pageObjects\AddEditDeleteContactPageObject.class
 test_file\TestBase.class
 pageObjects\AccountRegisterPageObject.class
