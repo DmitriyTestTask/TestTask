@@ -1,5 +1,6 @@
 This document descibes autotests of the "https://cryptic-retreat-46933.herokuapp.com/" website.
 
+Contact Keeper website
 The "https://cryptic-retreat-46933.herokuapp.com/" website helps people to save contact information about people.
 a contact can have Name with information like one Email and one phone number. Also contacts can be set like "Personal" or "Professional".
 

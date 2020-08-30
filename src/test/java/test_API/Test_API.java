@@ -10,13 +10,13 @@ public class Test_API {
     private String emailParam = "test-1@gmail.com";
     private String passwordParam = "qwetest82";
 
-    private String idContact = "5f4b92c45a9df1001716cece";
+    private String idContact = "5f4bd55592b2d80017dcedf7";
     private String addName = "1";
     private String addEmail = "qwe567@gmail.com";
     private String addPhone = "589123753";
     private String addType = "personal";
-    private String auth_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVmNGI4MmZhNWE5ZGYxMDAxNzE2Y2VjYyIs" +
-            "ImlhdCI6MTU5ODc4NjA1NSwiZXhwIjoxNTk4ODIyMDU1fQ.AZAdZbw5a4vk51AC2AhhRDFeZrdjXRA1JBiSqPbDshs";
+    private String auth_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVmNGI4MmZhNWE5ZGYxMDAxNzE2Y2VjYy" +
+            "IsImlhdCI6MTU5ODc4NDI1MCwiZXhwIjoxNTk4ODIwMjUwfQ.XaRSqj7jx2m96VpxKUfOjAXwIjuRZyjewrzjDwPDNa0";
 
 
 
@@ -32,8 +32,8 @@ public class Test_API {
     public void registrationNewUser(){
         RestAssured.given()
                 .contentType(ContentType.JSON)
-                .body("{\n"+ "\"name\"  : \"test-1\" ,\n"  +
-                               "\"email\" : \"test-1@gmail.com\", \n" +
+                .body("{\n"+ "\"name\"  : \"test-19\" ,\n"  +
+                               "\"email\" : \"test-19@gmail.com\", \n" +
                                 "\"password\" : \"qwetest82\"}")
                 .post("https://cryptic-retreat-46933.herokuapp.com/api/users")
                 .then()
@@ -82,11 +82,11 @@ public class Test_API {
         RestAssured.given()
                 .header("x-auth-token", auth_token)
                 .header("Content-Type", "Application/JSON")
-//                .contentType(ContentType.JSON)
-                .body("{\n" + "\"name\":\"1\"        ,\n" +
-                                    "\"email\":\"2\", \n"+
-                                    "\"phone\":\"3\" , \n" +
-                                     "\" type\": \" professional\"+\n}")
+                .contentType(ContentType.JSON)
+                .body("{\n" +       "\"name\":\"15\"        ,\n" +
+                                    "\"email\":\"25\", \n"+
+                                    "\"phone\":\"38\" , \n" +
+                                     "\" type\": \" personal\"+\n}")
                 .post("https://cryptic-retreat-46933.herokuapp.com/api/contacts/")
                 .then()
                 .statusCode(200);

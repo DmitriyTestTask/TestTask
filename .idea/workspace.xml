@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41c369aa-370c-4517-b514-842b7ae70815" name="Default Changelist" comment="" />
+    <list default="true" id="41c369aa-370c-4517-b514-842b7ae70815" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test_API/Test_API.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_API/Test_API.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test_API/Test_API.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test_API/Test_API.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Test_API.deleteContact">
+  <component name="RunManager" selected="TestNG.Test_API.addContact">
     <configuration name="Test_API.addContact" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test_project" />
       <extension name="coverage">
@@ -134,10 +138,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Test_API.deleteContact" />
-        <item itemvalue="TestNG.Test_API.registrationNewUser" />
         <item itemvalue="TestNG.Test_API.addContact" />
         <item itemvalue="TestNG.Test_API.loginUser" />
+        <item itemvalue="TestNG.Test_API.registrationNewUser" />
+        <item itemvalue="TestNG.Test_API.deleteContact" />
         <item itemvalue="TestNG.Test_API.getWebSite" />
       </list>
     </recent_temporary>
